@@ -17,7 +17,7 @@ class Main extends Component {
     console.log(this.props);
     console.log(this.props.dispatch);
 
-    dispatch(actionChangeText("change new text"));
+    thi.props.dispatch(actionChangeText("change new text"));
   }
 
   render() {
